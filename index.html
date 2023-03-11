@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraSimples</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="soma">
+            <h2>Somar</h2>
+            Digite um Numero: <input type="number" name="caixa_numero1" id="caixa1"> + <input type="number" name="caixa_numero2" id="caixa2">
+            <div id="resultado" >Resultado do Calculo</div>
+            <input type="button" value="Calcular" onclick="somar()">
+        </div>
+        <div id="diminuir">
+            <h2>Subtrair</h2>
+            Digite um Numero: <input type="number" name="caixa_numero3" id="caixa3"> - <input type="number" name="caixa_numero4" id="caixa4">
+            <div id="resultado2" >Resultado do Calculo</div>
+            <input type="button" value="Calcular" onclick="diminuir()">
+        </div>
+        <div id="multiplicar">
+            <h2>Multiplicação</h2>
+            Digite um Numero: <input type="number" name="caixa_numero5" id="caixa5"> x <input type="number" name="caixa_numero6" id="caixa6">
+            <div id="resultado3" >Resultado do Calculo</div>
+            <input type="button" value="Calcular"
+            onclick="multiplicar()">
+        </div>
+        <div id="Dividir">
+            <h2>Divisão</h2>
+            Digite um Numero: <input type="number" name="caixa_numero7" id="caixa7"> / <input type="number" name="caixa_numero8" id="caixa8">
+            <div id="resultado4" >Resultado do Calculo</div>
+            <input type="button" value="Calcular" onclick="dividir()">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
